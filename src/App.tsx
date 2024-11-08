@@ -1,3 +1,4 @@
+import NewButton from "./NewButton";
 import { Button } from "./stories/Button";
 import { Page } from "./stories/Page";
 
@@ -16,6 +17,7 @@ function App() {
         size="large"
          />
       </div>
+      <NewButton label="NewBTN" size="large" onClick={()=>alert('clicked')}/>
     </div>
   );
 }
